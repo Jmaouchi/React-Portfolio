@@ -1,0 +1,40 @@
+import React from 'react'
+import { Link } from 'react-router-dom';
+
+function Contact() {
+  return (
+    <>
+    <section  id="contacts" className="section-four">
+        <div className="flex">
+          <div className="border"></div>
+          <h3>Get<span>In Touch</span></h3>
+          <div className="border"></div>
+        </div>
+
+        <div className="section-four-context">
+
+          <div className="section-four-context-content">
+            <img src="./asset/images/instagram.png"  width="100px"></img>
+            <h5>My Instagram</h5>
+            <p>Follow me on instagram by clicking the the icon</p>
+          </div>
+
+          <div className="section-four-context-content">
+            <img src="./asset/images/call.png" alt="this img is a call logo, or phone call logo that will describe that im talking about my phone number" width="100px"></img>
+            <h5>My Phone Number</h5>
+            <p>Call Me To:  210.668.9245</p>
+          </div>
+
+          <div className="section-four-context-content">
+            <img src="./asset/images/email.png" alt="this img is the Email logo, that will describe that im talkig about email infos" width="100px"></img>
+            <h5>My Emial Adress</h5>
+            <p>Email Me To:  djigo.m@gmail.com</p>
+          </div>
+
+        </div>
+      </section>
+    </>
+  )
+}
+
+export default Contact
