@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+import React, {useState} from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import Welcome from './Components/Welcome';
+import Nav from './Components/Nav';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Work from './pages/Work';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  // use this state to render for us the Welcome component first on the page, then we can change the state inside that component to render the Nav
+ const [pageSelected, setPageSelected] = useState(false)
+
+ return (
+  <Router>
+    {/* if useState if not true then display the Welcome component */}
+    {!pageSelected ? 
+    (<>
+      <Welcome pageSelected={pageSelected} setPageSelected={setPageSelected}/>
+    </>
+    // else display the navbar
+    ):(
+      <Nav />
+    )}
+    <div className="container">
+      <Routes>
+        <Route  path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/work" element={<Work />} />
+      </Routes>
     </div>
-  );
+  </Router>
+ )
 }
 
 export default App;
+
