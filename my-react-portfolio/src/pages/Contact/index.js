@@ -10,20 +10,20 @@ function Contact() {
     <section  id="contacts" className="section-four">
         <div className="flex">
           <div className="border"></div>
-          <h3>Get<span>In Touch</span></h3>
+          <h3>Get<span style={{ color:"black" }}>In Touch</span></h3>
           <div className="border"></div>
         </div>
 
         <div className="section-four-context">
 
           <div className="section-four-context-content">
-            <img src={instagram} alt="sss"  width="100px"></img>
+            <a href='https://www.instagram.com/'><img src={instagram} alt="sss"  width="100px"></img></a> 
             <h5>My Instagram</h5>
             <p>Follow me on instagram by clicking the the icon</p>
           </div>
 
           <div className="section-four-context-content">
-            <img src={call} alt="this img is a call logo, or phone call logo that will describe that im talking about my phone number" width="100px"></img>
+          <img src={call} alt="this img is a call logo, or phone call logo that will describe that im talking about my phone number" width="100px"></img>
             <h5>My Phone Number</h5>
             <p>Call Me To:  210.668.9245</p>
           </div>

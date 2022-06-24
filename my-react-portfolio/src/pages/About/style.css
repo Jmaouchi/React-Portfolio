@@ -19,7 +19,7 @@
 }
 
 .flex span{
-    color: var(--white);
+    color: var(black);
     background-color:var(--main-color);
     padding: 5px;
     border-radius: var(--border-radius);

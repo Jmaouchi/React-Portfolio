@@ -15,7 +15,7 @@ function About() {
     <div class="section-two-content">
 
       <div class="image">
-        <img src={img1}></img>
+        <img src={img1} alt="My avatar"></img>
       </div>
 
       <div class="section-two-content-context">

@@ -8,7 +8,7 @@ function Work() {
 
       <div class="flex">
         <div class="border"></div>
-        <h3>My<span style={{color:"black"}}>Work</span></h3>
+        <h3>My<span style={{ color:"black" }}>Work</span></h3>
         <div class="border"></div>
       </div>
 
