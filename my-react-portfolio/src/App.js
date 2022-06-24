@@ -8,25 +8,28 @@ import Contact from './pages/Contact';
 import Work from './pages/Work';
 
 function App() {
+  // use this state to render for us the Welcome component first on the page, then we can change the state inside that component to render the Nav
  const [pageSelected, setPageSelected] = useState(false)
 
  return (
   <Router>
-  {!pageSelected ? 
-  (<>
-  <Welcome pageSelected={pageSelected} setPageSelected={setPageSelected}/>
-  </>
-  ):(
-    <Nav />
-  )}
-  <div className="container">
-    <Routes>
-      <Route  path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/work" element={<Work />} />
-    </Routes>
-  </div>
-</Router>
+    {/* if useState if not true then display the Welcome component */}
+    {!pageSelected ? 
+    (<>
+      <Welcome pageSelected={pageSelected} setPageSelected={setPageSelected}/>
+    </>
+    // else display the navbar
+    ):(
+      <Nav />
+    )}
+    <div className="container">
+      <Routes>
+        <Route  path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/work" element={<Work />} />
+      </Routes>
+    </div>
+  </Router>
  )
 }
 

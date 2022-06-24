@@ -1,5 +1,6 @@
 import React from 'react'
 import img1 from '../../images/djigo.jpg'
+import './style.css'
 
 function About() {
   return (

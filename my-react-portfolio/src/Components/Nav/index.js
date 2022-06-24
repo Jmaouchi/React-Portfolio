@@ -1,9 +1,9 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import './style.css'
 
-function Nav() {
+function Nav(pageSelected, setPageSelected) {
   return (
   <>
     <header>
@@ -12,10 +12,10 @@ function Nav() {
       
       <nav>
         <ul className='navbar'>
-          <Link to={"/"}><li >Home</li></Link>
-          <Link to={"about"}><li> About</li></Link>
-          <Link to={"contact"}> <li>Contact</li></Link>
-          <Link to={"work"}> <li>Work</li></Link>
+          <li ><a href="http://localhost:3000/">Home</a></li>
+          <li><Link to={"about"}>About</Link></li>
+          <li><Link to={"contact"}>Contact</Link></li>
+          <li><Link to={"work"}>Work</Link></li>
         </ul>  
       </nav>
 
