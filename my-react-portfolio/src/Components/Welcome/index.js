@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './style.css'
 
 
@@ -19,7 +20,7 @@ function welcome({pageSelected, setPageSelected}) {
       </div> 
 
       <div className="button">
-        <button><a href="#home" onClick={() => setPageSelected(true)}>Let's Start Here</a></button>
+        <button onClick={() => setPageSelected(true)}><Link to={'/about'}>Get started</Link></button>
       </div> 
 
     </div>
