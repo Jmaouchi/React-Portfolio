@@ -12,11 +12,14 @@
   align-items: center;
   justify-content: center;
   padding: 30px;
-  margin: 10px;
+  margin: 20px;
+
 }
 
 .section-four-context-content {
   margin:45px;
+  border: 1px solid white;
+  padding: 20px;
 }
 
 .section-four-context img {
@@ -40,3 +43,15 @@
 .section-four-context p {
   font-size: 15px;
 }
+
+
+.text-me{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-me button {
+  padding: 15px;
+}
+
