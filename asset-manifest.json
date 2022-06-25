@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my-react-portfolio/static/css/main.50bf2090.css",
+    "main.js": "/my-react-portfolio/static/js/main.ee25c098.js",
+    "static/js/787.56d9acf9.chunk.js": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js",
+    "static/media/coffeeWebsite.png": "/my-react-portfolio/static/media/coffeeWebsite.ad539d084f06ba8420e2.png",
+    "static/media/runBudy.png": "/my-react-portfolio/static/media/runBudy.219f47fdd7563527ede9.png",
+    "static/media/videoGallery.png": "/my-react-portfolio/static/media/videoGallery.4e6f5ce247dd1ebb502b.png",
+    "static/media/background.png": "/my-react-portfolio/static/media/background.345b607a4b18496e1091.png",
+    "static/media/djigo.jpg": "/my-react-portfolio/static/media/djigo.ed9791f4ec343ec19831.jpg",
+    "static/media/Schedule.png": "/my-react-portfolio/static/media/Schedule.e1f2811563f5c2d3d54f.png",
+    "static/media/colorChanging.png": "/my-react-portfolio/static/media/colorChanging.a379e7c0b7ce83c6d688.png",
+    "static/media/section-one-image.jpg": "/my-react-portfolio/static/media/section-one-image.45f60d16243137a03d18.jpg",
+    "static/media/email.png": "/my-react-portfolio/static/media/email.3b2295ce37dbe969fba4.png",
+    "static/media/todo list.png": "/my-react-portfolio/static/media/todo list.e4f3ac7151cbed954b97.png",
+    "static/media/instagram.png": "/my-react-portfolio/static/media/instagram.b017ebaef042f86007fc.png",
+    "index.html": "/my-react-portfolio/index.html",
+    "main.50bf2090.css.map": "/my-react-portfolio/static/css/main.50bf2090.css.map",
+    "main.ee25c098.js.map": "/my-react-portfolio/static/js/main.ee25c098.js.map",
+    "787.56d9acf9.chunk.js.map": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50bf2090.css",
+    "static/js/main.ee25c098.js"
+  ]
+}
