@@ -1,7 +1,28 @@
+
+.container {
+  background-color: rgb(50, 49, 49);
+  border-radius: 50px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-top: 55px;
+}
+
+.container:hover{
+  background-color: rgb(4, 7, 7);
+  color: rgb(245, 241, 241);
+  border: 1px solid white;
+}
+
+
 .headin-h1tag{
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 25px;
 }
 
 
@@ -9,147 +30,35 @@ form {
   width: 40%;
 }
 
+
 input {
   font-size: 1rem;
   padding: 0.25rem;
-  border: 1px solid var(--dark);
+  margin-top: 15px;
+  border: 3px solid  rgb(17, 220, 190);
+  background-color: rgb(169, 171, 171);
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
 }
 
-input:focus {
-  border: 1px solid var(--secondary);
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
-}
-
-li {
-  list-style: none;
-}
-
-nav a:hover {
-  text-decoration: none;
-}
-
-nav  li {
-  cursor: pointer;
-}
 
 textarea {
 	width: 600px;
 	height: 120px;
-	border: 3px solid #cccccc;
+  border: 3px solid  rgb(17, 203, 220);
+  background-color: rgb(169, 171, 171);
+  border-radius: 15px;
 	padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.container {
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.flex-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.space-between {
-  justify-content: space-between;
-}
-
-.flex-end {
-  justify-content: flex-end;
-}
-
-.mx-1 {
-  margin-right: var(--spacing-one);
-  margin-left: var(--spacing-one);
-}
-
-.mx-2 {
-  margin-right: var(--spacing-two);
-  margin-left: var(--spacing-two);
-}
-
-.my-1 {
-  margin-top: var(--spacing-one);
-  margin-bottom: var(--spacing-one);
-}
-
-.my-2 {
-  margin-top: var(--spacing-two);
-  margin-bottom: var(--spacing-two);
-}
-
-.my-5 {
-  margin-top: var(--spacing-five);
-  margin-bottom: var(--spacing-five);
-}
-
-.px-1 {
-  padding-right: var(--spacing-one);
-  padding-left: var(--spacing-one);
-}
-
-.px-2 {
-  padding-right: var(--spacing-two);
-  padding-left: var(--spacing-two);
-}
-
-.py-1 {
-  padding-top: var(--spacing-one);
-  padding-bottom: var(--spacing-one);
-}
-
-.py-2 {
-  padding-top: var(--spacing-two);
-  padding-bottom: var(--spacing-two);
-}
-
-.card {
-  width: 25%;
-  text-align: center;
-}
-
-.img-thumbnail {
-  width: auto;
-  height: 300px;
-  margin-bottom: 50px;
-  cursor: pointer;
-}
-
-.modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
-}
-
-.modalContainer {
-	background: var(--darker);
+.submit{
+	background: rgb(3, 3, 3);
+  border: 1px solid  rgb(13, 188, 207);
 	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
-}
-
-.modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
-}
-
-button {
-	background: var(--primary);
-	border: 0;
-	border-radius: 5px;
-	color: #fff;
+	color: rgb(13, 188, 207);
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: 600;
@@ -157,12 +66,28 @@ button {
 	padding: 10px 15px;	
 }
 
-a {
-	border-radius: 5px;
-	color: var(--primary);
-	font-weight: 600;
-	padding: 2px 4px;
-	margin-left: -2px;
-	margin-right: -2px;
-	
+.submit:hover{
+  background-color: aqua;
+  border: black;
+  color: black;
 }
+
+label{
+  font-size: 17px;
+}
+
+.context{
+  margin-top: 25px;
+}
+
+
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+    textarea{
+      width: 250px;
+    }
+  
+  }

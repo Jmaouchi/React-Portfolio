@@ -20,3 +20,502 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+/* media query starts */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media (max-width: 980px) {
+
+  header h1{
+    font-size: 20px;
+  }
+
+  header h2 {
+    font-size: 28px;
+  }
+
+  header ul li a{
+    font-size: 18px;
+  }
+
+  .section-two{
+    margin-top: 50px;
+    color: var(--main-color);
+    width: 100%;
+  }
+  
+
+  .section-two-content .image{
+    opacity: 60%;
+    width: 50%;
+    margin-top: 5px;
+    flex: 1 70%;
+  }
+  
+  .section-two-content .image img {
+    border-radius: var(--border-radius);
+    width: 100%;
+  }
+  
+  .section-two-content .section-two-content-context {
+    flex: 0 30%;
+    width:100%;
+    text-align: center;
+    color: var(--color-white);
+  }
+  
+  .section-two-content-context p{
+    font-size: 12px;
+  }
+  
+  .about-me-context {
+    border-bottom: none;
+    border-radius: var(--border-radius);
+  }
+  
+  .about-me-context h4{
+    margin-bottom: 10px;
+    color: var(--main-color);
+    font-size: 20px;
+  }
+  
+  .bellow{
+    font-size: 10px;
+  }
+
+}
+
+
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+  /* header start */
+  header h1{
+    font-size: 16px;
+  }
+
+  header h2 {
+    font-size: 22px;
+  }
+
+  header ul li a{
+    font-size: 14px;
+  }
+
+
+/* section three start */
+.section-two-content {
+  display: flex;
+  flex-direction: column;
+  flex: 100%;
+}
+
+.section-two-content .image{
+  padding: 45px;
+  margin-top: 55px;
+  flex:100%;
+  opacity: 100%;
+  width: 100%;
+}
+
+.section-two-content-context{
+  border:  5px solid black;
+  flex: 100%;
+  width: 100%;
+  padding: 25px;
+
+}
+  
+.about-me-context h4{
+  margin-bottom: 10px;
+  color: var(--main-color);
+  font-size: 32px;
+}
+
+
+.section-two-content-context p{
+  font-size: 15px;
+}
+  
+.about-me-context {
+    border-bottom: none;
+    border-radius: var(--border-radius);
+}
+
+.bellow{
+    font-size: 25px;
+}
+
+
+/* section three starts or section my work */
+.section-three-content-wrap .col{
+  flex: 100%;
+}
+     
+.section-three-content-wrap .col{
+  padding: 5rem 3rem;
+}
+
+.section-three-content-wrap .col .btn{
+  margin-top: 3rem;
+  padding: .5rem .2rem;
+}
+
+.section-three-content-wrap .col .btn a{
+  font-size: 15px;
+}
+
+/* section four start */
+.section-four-context {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
+  padding: 10px;
+}
+
+.section-four-context-content {
+  margin:10px;
+   width: 100%;
+}
+
+.section-four-context-content:nth-child(1)  {
+  margin-top: 24px;
+}
+
+.section-four-context-content:nth-child(3){
+  margin-top: 25px;
+}
+  
+.section-four-context img {
+  border-radius: var(--border-radius);
+  border: 2px solid var(--main-color);
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+  
+.section-four-context img:hover{
+  width: 100px;
+}
+  
+.section-four-context h5{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+  
+.section-four-context p {
+  font-size: 13px;
+}
+
+.section-four-context-content img{
+  width: 70px;
+}
+
+}
+
+/* section one starts */
+section.section-one{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.section-one-content{
+  margin-top: 35px;
+  padding: 100px;
+}
+.section-one-content h2{
+  font-size: 65px;
+  text-align: center;
+  color: transparent;
+}
+
+.section-one-content p{
+  color: rgb(245, 236, 223);
+  font-size: 35px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.section-one-content-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-one-content-p .border{
+  width: 150px;
+  background-color:var(--white);
+  height: 1.5px;
+  margin: 10px;
+}
+
+.section-one-content button{
+  padding: 15px; 
+  border: 2px solid red;
+  border-radius: 100px;
+  cursor: pointer;
+  display: hidden;
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-one-content button a{
+  color: rgb(241, 2, 241);
+  font-size: 20px;
+  text-decoration: none;
+  padding: 20px;
+}
+
+
+.section-one-content button:hover  {
+  background-color: var(--main-color);
+}
+
+.section-one-content button:hover a{
+  color: var(--color-black);
+} 
+
+
+
+
+
+/* media queries starts */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media (max-width: 980px) {
+
+  .section-one-content p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+  .section-one-content h2{
+    font-size: 55px;
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+}
+
+}
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+  .section-one-content p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+  .section-one-content h2{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+}
+
+  
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+  .section-one-content p{
+      font-size: 25px;
+      text-align: center;
+  }
+
+  .section-one-content h2{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+}
+}
+
+
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+/* header start */
+header{
+  display: flex;
+  flex-direction: column;
+}
+
+header ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+    justify-content:center;
+    margin-bottom: 25px;
+  }
+
+header ul li{
+    margin-bottom: 10px;
+}
+
+header ul li:hover{
+    background-color: var(--color-black);
+    color: var(--main-color);
+    padding: 10px;
+    border-radius: var(--border-radius);
+}
+
+  header ul li a{
+    font-size: 22px;
+  }
+
+  
+  header h1{
+    font-size: 32px;
+  }
+
+  header h2{
+    font-size: 38px;
+  }
+
+  .navbar li a:hover{
+    color:var(--main-color);
+    border-bottom: none;
+    padding-bottom: .5rem;
+    letter-spacing: .3px;
+  }
+
+
+/* section three start */
+  .section-two-content {
+    display: flex;
+    flex-direction: column;
+    flex: 100%;
+  }
+  
+  .section-two-content .image{
+    flex:100%;
+    opacity: 80%;
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .section-two-content-context{
+
+    flex: 100%;
+    width: 80%;
+  }
+
+
+  .about-me-context {
+    padding: 25px;
+    border-bottom: none;
+    border-radius: var(--border-radius);
+    border:  2px solid var(--main-color);
+  }
+  
+  .about-me-context h4{
+    margin-bottom: 10px;
+    color: var(--main-color);
+    font-size:32px;
+  }
+  
+  .bellow{
+    font-size: 12px;
+  }
+
+  /* section three starts or section my work */
+.section-three-content-wrap .col{
+  padding: 3rem 2rem;
+}
+
+.section-three-content-wrap .col .btn{
+  margin-top: 5rem;
+  display: inline-block;
+  padding: .6rem 1rem;
+  font-size: .8rem;
+  background: var(--color-black);
+  cursor: pointer;
+  text-align: center;
+  border-radius:100px;
+  border: 1px solid var(--color-black);
+}
+
+.section-three-content-wrap .col .btn a{
+  display: flex; /* i displayed it as flex to add padding whithout effecting the text positioning. this will allow us whenever we click the outside of the a tag it will still run the click */
+  text-align: center;
+  align-items: center;
+  padding: 0 20px 0 20px;
+  color: var(--color-white);
+}
+
+
+/* section four start */
+.section-four-context {
+    display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+}
+  
+.section-four-context-content {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid var(--main-color);
+    border-radius: var(--border-radius);
+}
+
+
+.section-four-context img {
+    border-radius: var(--border-radius);
+    border: 2px solid var(--main-color);
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+.section-four-context img:hover{
+  width: 80px;
+  }
+  
+.section-four-context h5{
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+  
+.section-four-context p {
+    font-size: 13px;
+  }
+
+.section-four-context-content img{
+    width: 70px;
+  }
+
+}
+
+
+
+
+

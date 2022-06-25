@@ -20,7 +20,7 @@ function welcome({pageSelected, setPageSelected}) {
       </div> 
 
       <div className="button">
-        <button onClick={() => setPageSelected(true)}><Link to={'/about'}></Link></button>
+        <button onClick={() => setPageSelected(true)}><Link to={'/about'}>Get started</Link></button>
       </div> 
 
     </div>

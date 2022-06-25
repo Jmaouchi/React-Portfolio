@@ -38,21 +38,17 @@ function ContactForm() {
 
   return (
     <section className='container '>
-      <div className='headin-h1tag'>
-        <h1 data-testid="h1tag">Contact me</h1>
-      </div>
-
       <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
+        <div className='context'>
           <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} /> 
+          <input type="text" name="name" placeholder='Name' defaultValue={name} onBlur={handleChange} /> 
           {/* The onBlur event fires when a field loses focus. */}
         </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+        <div className='context'>
+          <label  htmlFor="email">Email address:</label>
+          <input type="email" name="email" placeholder='email' defaultValue={email} onBlur={handleChange} />
         </div>
-        <div>
+        <div className='context'>
           <label htmlFor="message">Message:</label>
           <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
         </div>
@@ -61,7 +57,7 @@ function ContactForm() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" type="submit">Submit</button>
+        <button data-testid="button" type="submit" className='submit'>Submit</button>
       </form>
     </section>
   );

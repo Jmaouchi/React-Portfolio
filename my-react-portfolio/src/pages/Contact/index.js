@@ -12,10 +12,10 @@ function Contact() {
     <section  id="contacts" className="section-four">
         <div className="flex">
           <div className="border"></div>
-          <h3>Get<span style={{ color:"black" }}>In Touch</span></h3>
+          <h3>Get<span style={{ color:"black" }}>In Touch</span></h3> 
           <div className="border"></div>
         </div>
-
+        <ModelOV />
         <div className="section-four-context">
 
           <div className="section-four-context-content">
@@ -36,7 +36,6 @@ function Contact() {
             <p>Email Me To:  djigo.m@gmail.com</p>
           </div>
         </div>
-        <ModelOV />
       </section>
     </>
   )
