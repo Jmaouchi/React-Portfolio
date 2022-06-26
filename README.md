@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Title: React portfolio 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Table of  Contents
 
-In the project directory, you can run:
+* [Title](#title)
+* [About](#about)
+* [Built](#Technology)
+* [Contribution](#header.contribution)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# About The Application:
+    This is my protfolio that i build using react
 
-### `npm test`
+# Technology
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**1. [JavaScript](https;//javascript.com/)**
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**2. [CSS](https;//css.com/)**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**3. [HTML](https;//HTML.com/)**
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**4. [Node.js](https;//HTML.com/)**
+  Node JS is a runtime environment for the JavaScript language similar to how you would use a Python interpreter to run Python code on your computer. Node JS is being used to run and execute JavaScript code in the server to build backend services.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**5. [React](https;//react.com/)**
+  React is a client-side JavaScript library, which means it runs on the user's machine in the browser, not on the server. ReactJS was created in 2011 by the tech giant, Facebook. The React library is used to build dynamic user interfaces and works by separating aspects of the user interface into what are called "components"
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**6. [React Components](https;//HTML.com/)**
+  React Components Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML.
 
-## Learn More
+**7. [nodemon](https;//nodemon.com/)** :
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* nodemon is a command-line interface (CLI) utility developed by @rem that wraps your Node app, watches the file system, and automatically restarts the process
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+# My avatar
+![](asset/images/djigo.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Contact:
 
-### Making a Progressive Web App
+* If you have any questions, feel free to [email](mailto:djigo.maouchi@yahoo.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Contribution:
+  This application is made by, Jugurta Maouchi
