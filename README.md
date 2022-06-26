@@ -40,7 +40,7 @@
 
 
 # My avatar
-![](asset/images/djigo.jpg)
+![](./src/images/djigo.jpg)
 
 
 
